@@ -1,6 +1,6 @@
 # Google Dino Game - Proj 1
 
-[<img src="screenshot.png" width="80%">]
+![alt text](https://github.com/bryancyy192/bryancyy192.github.io/blob/main/images/screenshot.png)
 
 ### Try out the game here!
 
