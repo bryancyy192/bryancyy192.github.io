@@ -36,7 +36,7 @@ export default class CactiController {
     const x = this.canvas.width * 1.5;
     const fly = [
       {height: this.canvas.height - cactusImage.height},
-      {height: this.canvas.height - cactusImage.height - 50 *this.scaleRatio}
+      {height: this.canvas.height - cactusImage.height - 40 *this.scaleRatio}
     ];
     const y = fly[this.getRandomNumber(0, fly.length - 1)].height;
     const cactus = new Cactus(
