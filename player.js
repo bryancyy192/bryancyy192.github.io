@@ -100,7 +100,7 @@ export default class Player {
         if (this.duckPressed) {
             this.duckInProgress = true;
           }
-          this.y = 10 + this.canvas.height - this.height - 1.5;
+          this.y = this.canvas.height - this.height + 10 * this.scaleRatio;
           this.duckInProgress = false;
             }
 
