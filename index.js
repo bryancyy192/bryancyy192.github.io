@@ -92,7 +92,7 @@ function setScreen() {
 }
 
 setScreen();
-//Use setTimeout on Safari mobile rotation otherwise works fine on desktop
+
 window.addEventListener("resize", () => setTimeout(setScreen, 500));
 
 if (screen.orientation) {

@@ -62,7 +62,7 @@ export default class CactiController {
       cactus.update(this.speed, gameSpeed, frameTimeDelta, this.scaleRatio);
     });
 
-    this.cacti = this.cacti.filter((cactus) => cactus.x > -cactus.width);
+    this.cacti = this.cacti.filter((cactus) => cactus.x > - cactus.width);
   }
 
   draw() {

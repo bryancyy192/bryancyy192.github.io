@@ -6,6 +6,11 @@
 
 http://127.0.0.1:5500/index.html
 
+### Technology used
+HTML
+CSS
+JS
+
 ### Getting Started
 
 Quick walkthrough on how i made the dino jump and duck!
