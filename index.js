@@ -19,6 +19,7 @@ const GROUND_WIDTH = 2400;
 const GROUND_HEIGHT = 24;
 const GROUND_AND_CACTUS_SPEED = 0.5;
 
+//Array for cacti
 const CACTI_CONFIG = [
   { width: 48 / 1.5, height: 100 / 1.5, image: "images/cactus_1.png" },
   { width: 98 / 1.5, height: 100 / 1.5, image: "images/cactus_2.png" },
@@ -38,6 +39,7 @@ let gameOver = false;
 let hasAddedEventListenersForRestart = false;
 let waitingToStart = true;
 
+//dino + ground creation
 function createSprites() {
   const playerWidthInGame = PLAYER_WIDTH * scaleRatio;
   const playerHeightInGame = PLAYER_HEIGHT * scaleRatio;
@@ -84,6 +86,7 @@ function createSprites() {
   score = new Score(ctx, scaleRatio);
 }
 
+// Fitting to screen
 function setScreen() {
   scaleRatio = getScaleRatio();
   canvas.width = GAME_WIDTH * scaleRatio;
@@ -156,9 +159,9 @@ function showStartGameText() {
   const fontSize = 40 * scaleRatio;
   ctx.font = `${fontSize}px Verdana`;
   ctx.fillStyle = "grey";
-  const x = canvas.width / 14;
+  const x = canvas.width / 9;
   const y = canvas.height / 2;
-  ctx.fillText("Tap Screen or Press Space To Start", x, y);
+  ctx.fillText("Space to Jump! Down to Duck!", x, y);
 }
 
 function updateGameSpeed(frameTimeDelta) {
