@@ -4,7 +4,7 @@
 
 ### Try out the game here!
 
-http://127.0.0.1:5500/index.html
+https://bryancyy192.github.io/
 
 ### Technology used
 HTML
