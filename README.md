@@ -6,6 +6,8 @@
 
 http://127.0.0.1:5500/index.html
 
+### Getting Started
+
 Quick walkthrough on how i made the dino jump and duck!
 
 I started off by setting the jump speed and gravity values as shown below.
